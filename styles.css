@@ -69,7 +69,7 @@ a {
         margin: 0;
         height: 100%;
         overflow: hidden;
-        background-image: url(image.png);
+        background-image: url(./img/image.png);
         background-size: cover;
         backdrop-filter: brightness(30);
     }
