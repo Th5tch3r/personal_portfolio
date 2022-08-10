@@ -1,21 +1,73 @@
+:root {
+    --font-color1: gray;
+}
+
+* {
+    color: white;
+    border: 0;
+    margin: 0;
+}
+
+#background {
+    position: absolute;
+    z-index: -1;
+    filter: brightness(45%);
+    height: 100%;
+
+}
+body {
+    background-color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+
+}
+
+.navi {
+    padding-top: 30%;
+    padding-left: 70%;
+}
+
 
 @media (hover: none) {
-    #about-me {
+
+    .nav {
         font-size: 0px;
     }
-    #about-me::after{
+
+    .nav::after{
         content: attr(data-hover) ;
         font-size: 1rem;
-        color: red;
+        
     }
+
+    a {
+        color: gray;
+    }
+
+    #background {
+        max-width: 390px;
+        object-fit: cover;
+    }
+
+    html, body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+    
 }
 
 @media (hover: hover) {
-    #about-me:hover {
+    
+    .nav:hover {
         font-size: 0;
     }
     
-    #about-me:hover:after {
+    .nav:hover:after {
         content: attr(data-hover);
         font-size: 1rem;
     }
