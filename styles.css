@@ -23,12 +23,14 @@ body {
 a {
     text-decoration: none;
     display: flex;
+    font-size: 4rem;
 
 }
 
 .navi {
     padding-top: 30%;
-    padding-left: 70%;
+    padding-left: 60%;
+    border-left: 40px;
 }
 
 
@@ -40,17 +42,25 @@ a {
 
     .nav::after{
         content: attr(data-hover) ;
-        font-size: 1rem;
-        
+        font-size: 2rem;
     }
 
     a {
         color: gray;
+        display: flex;
+        padding-top: 15px;
+    }
+
+    .navi {
+        padding-top: 50%;
+        padding-left: 40%;
     }
 
     #background {
-        max-width: 700px;
+        max-width: 100%;
+        height: 100%;
         object-fit: cover;
+        overflow: hidden;
     }
 
     html, body {
@@ -69,7 +79,7 @@ a {
     
     .nav:hover:after {
         content: attr(data-hover);
-        font-size: 1rem;
+        font-size: 4rem;
     }
     
 }
