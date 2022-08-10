@@ -92,6 +92,8 @@ a {
     .nav:hover:after {
         content: attr(data-hover);
         font-size: 4rem;
+        /* color: #4a473d; */
+        color:#6f5443;
     }
     
 }
