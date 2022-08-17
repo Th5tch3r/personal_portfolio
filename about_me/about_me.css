@@ -1,0 +1,77 @@
+:root {
+    --main-color: #967b65;
+}
+
+* {
+    color: white;
+    border: 0;
+    margin: 0;
+    overflow-x: hidden;
+    max-height: auto;
+    max-width: auto;
+}
+
+body {
+    background-color: black;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 2%;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+}
+
+.navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.navi a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    color: var(--main-color); 
+}
+
+.intro {
+    padding-top: 120px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    /* position: relative; */
+    align-self: center;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
