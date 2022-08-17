@@ -25,6 +25,7 @@ a {
     text-decoration: none;
     display: flex;
     font-size: 5rem;
+    padding-top: 30px;
 
 }
 
@@ -46,7 +47,9 @@ a {
 .logo {
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 5%;
+    padding-top: 3%;
+    border-top: none;
+   
 }
 
 #logo {
@@ -70,17 +73,19 @@ a {
         display: none;
     }
 
-    .navi a {
+    .navi {
         color: white;
         display: flex;
-        justify-content: left;
-        padding-top: 18px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 10px;
         /* text-shadow: 2px 2px 2px black; */
+        padding-top: 10%; 
+        padding-left: 12%;
     }
 
-    .navi {
-        padding-top: 10%;
-        padding-left: 12%;
+    .navi a {
+        padding-top: 25%;
     }
 
     .logo{
