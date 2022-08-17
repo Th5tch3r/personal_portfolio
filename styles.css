@@ -57,6 +57,19 @@ a {
     padding-right: 5%;
 }
 
+.footer  {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 300px;
+    padding-bottom: 10%;
+    /* justify-content: center;
+    margin-top: none;
+    margin-bottom: none;
+    padding-bottom: none;
+    padding-top: 30%; */
+}
+
 /* Mobile, none hoverable devices */
 @media (hover: none) {
 
@@ -119,7 +132,10 @@ a {
         /* background-image: url(./img/image.png); */
         background-size: cover;
         background-blend-mode: luminosity;
-        
+    }
+
+    .footer {
+        height: 550px;
     }
     
 }
