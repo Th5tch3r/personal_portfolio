@@ -6,6 +6,7 @@
     color: white;
     border: 0;
     margin: 0;
+    overflow: hidden;
 }
 
 #background {
@@ -28,11 +29,18 @@ a {
 }
 
 .navi {
-    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 30%;
+    padding-top: 10%;
+    border-bottom: 10%;
+    /* padding-top: 20%;
     padding-left: 50%;
+    padding-bottom: 10%;
     margin-bottom: 100px;
     border-left: 30px;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
 .logo {
