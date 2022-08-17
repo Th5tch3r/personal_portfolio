@@ -57,7 +57,7 @@ a {
     padding-right: 5%;
 }
 
-.footer  {
+/* .footer  {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -68,6 +68,16 @@ a {
     margin-bottom: none;
     padding-bottom: none;
     padding-top: 30%; */
+ 
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-self: center;
 }
 
 /* Mobile, none hoverable devices */
