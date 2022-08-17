@@ -1,5 +1,5 @@
 :root {
-    --font-color1: gray;
+    --main-color: #967b65;
 }
 
 * {
@@ -23,18 +23,30 @@ body {
 a {
     text-decoration: none;
     display: flex;
-    font-size: 4rem;
+    font-size: 5rem;
 
 }
 
 .navi {
-    padding-top: 30%;
-    padding-left: 55%;
+    padding-top: 20%;
+    padding-left: 50%;
+    margin-bottom: 100px;
     border-left: 30px;
     overflow: hidden;
 }
 
+.logo {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 5%;
+}
 
+#logo {
+    font-size: 2rem;
+    padding-right: 5%;
+}
+
+/* Mobile, none hoverable devices */
 @media (hover: none) {
 
     .nav {
@@ -43,18 +55,38 @@ a {
 
     .nav::after{
         content: attr(data-hover) ;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
-    a {
-        color: gray;
+    img {
+        display: none;
+    }
+
+    .navi a {
+        color: white;
         display: flex;
-        padding-top: 15px;
+        justify-content: left;
+        padding-top: 18px;
+        /* text-shadow: 2px 2px 2px black; */
     }
 
     .navi {
-        padding-top: 50%;
-        padding-left: 40%;
+        padding-top: 10%;
+        padding-left: 12%;
+    }
+
+    .logo{
+        padding: none;
+        border: none;
+        margin: none;
+        display: flex;
+        justify-content: center;
+        /* margin-left: 25px; */
+    }
+
+    #logo {
+        font-size: 1.75rem;
+        color: white;
     }
 
     #background {
@@ -70,13 +102,16 @@ a {
         margin: 0;
         height: 100%;
         overflow: hidden;
-        background-image: url(./img/image.png);
+        background-image: url(./gif/background.gif);
+        /* background-image: url(./img/image.png); */
         background-size: cover;
-        backdrop-filter: brightness(30);
+        background-blend-mode: luminosity;
+        
     }
     
 }
 
+/* Computer, hoverable devices */
 @media (hover: hover) {
     .nav {
         will-change: transform;
@@ -91,9 +126,12 @@ a {
     
     .nav:hover:after {
         content: attr(data-hover);
-        font-size: 4rem;
+        font-size: 5rem;
         /* color: #4a473d; */
-        color:#6f5443;
+        color: var(--main-color);
     }
     
+    #logo:hover {
+        color: var(--main-color);
+    }
 }
