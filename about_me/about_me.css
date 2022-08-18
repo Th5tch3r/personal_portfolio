@@ -20,6 +20,11 @@ body {
 .logo a {
     text-decoration: none;
     font-size: 2rem;
+    color: var(--main-color);
+}
+
+.logo a:hover {
+    color: white;
 }
 
 nav {
@@ -67,15 +72,58 @@ a:hover {
     width: 150px;
     /* position: relative; */
     align-self: center;
+    margin-bottom: 22px;
 
 }
+
+.resume a {
+    display: block;
+    padding-left: 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.res:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 
 footer {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
-    /* position: fixed; */
+    position: fixed;
     bottom: 0;
     width: 100%;
     align-self: center;
+}
+
+footer p {
+    color: var(--main-color);
+}
+
+/* mobile display */
+@media (hover: none) {
+    footer {
+        position: relative;
+    }
+
+    .logo a {
+        font-size: 1.8rem;
+        color: var(--main-color);
+    }
+
+    .navi a {
+        padding-top: 8px;
+        font-size: 1.3rem;
+    }
+
+    .intro {
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: 0.8rem;
+    }
 }
