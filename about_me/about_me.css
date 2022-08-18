@@ -74,7 +74,7 @@ footer {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
     align-self: center;
