@@ -145,7 +145,10 @@ footer {
     }
 
     .footer {
-        height: 550px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        align-self: center;
     }
     
 }
