@@ -27,6 +27,15 @@ body {
     color: white;
 }
 
+.intro p a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.intro p a:hover{
+    color: white;
+}
+
 nav {
     display: flex;
     flex-direction: column;
