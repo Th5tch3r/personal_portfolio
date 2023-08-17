@@ -15,6 +15,7 @@ body {
     background-color: black;
     font-family: 'Nunito', sans-serif;
     padding-top: 2%;
+    font-size: 20px;
 }
 
 .logo a {
@@ -66,6 +67,14 @@ a:hover {
     color: var(--main-color); 
 }
 
+.navi #about {
+    color: #45434d;
+}
+
+.navi #about:hover {
+    color: var(--main-color);
+}
+
 .intro {
     padding-top: 120px;
     padding-left: 20%;
@@ -73,6 +82,10 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.intro p {
+    padding-top: 20px;
 }
 
 .profile {

@@ -1,0 +1,151 @@
+:root {
+        --main-color: #967b65;
+}
+
+* {
+color: white;
+border: 0;
+margin: 0;
+overflow-x: hidden;
+max-height: auto;
+max-width: auto;
+}
+
+body {
+background-color: black;
+font-family: 'Nunito', sans-serif;
+padding-top: 2%;
+font-size: 20px;
+}
+
+.logo a {
+text-decoration: none;
+font-size: 2rem;
+color: var(--main-color);
+}
+
+.logo a:hover {
+color: white;
+}
+
+.intro p a {
+text-decoration: none;
+color: var(--main-color);
+}
+
+.intro p a:hover{
+color: white;
+}
+
+nav {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: fixed;
+top: 0;
+width: 100%;
+background-color: black;
+padding-top: 20px;
+}
+
+.navi {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+width: 300px;
+}
+
+.navi a {
+text-decoration: none;
+display: flex;
+flex-direction: row;
+text-decoration: none;
+font-size: 1.5rem;
+}
+
+a:hover {
+color: var(--main-color); 
+}
+
+.navi #contact {
+color: #45434d;
+}
+
+.navi #contact:hover {
+color: var(--main-color);
+}
+
+.intro {
+padding-top: 120px;
+padding-left: 20%;
+padding-right: 20%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.intro p {
+padding-top: 20px;
+}
+
+.profile {
+border-radius: 50%;
+height: 150px;
+width: 150px;
+/* position: relative; */
+align-self: center;
+margin-bottom: 22px;
+
+}
+
+.resume a {
+display: block;
+padding-left: 20%;
+padding-top: 40px;
+padding-bottom: 40px;
+text-decoration: none;
+color: var(--main-color);
+}
+
+.res:hover {
+color: white;
+text-decoration: underline;
+}
+
+
+footer {
+display: flex;
+justify-content: center;
+padding-bottom: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+align-self: center;
+}
+
+footer p {
+color: var(--main-color);
+}
+
+/* mobile display */
+@media (hover: none) {
+footer {
+        position: relative;
+}
+
+.logo a {
+        font-size: 1.8rem;
+        color: var(--main-color);
+}
+
+.navi a {
+        padding-top: 8px;
+        font-size: 1.3rem;
+}
+
+.intro {
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: 0.8rem;
+}
+}
