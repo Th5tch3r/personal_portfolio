@@ -20,5 +20,5 @@ Create my personal portfolio from scratch using html and css.
 - [ ] add icons footer for work
 - [ ] add icons footer for contact
 - [ ] Add responsive for mobile display for work.html
-- [ ] Change resume on file 
+- [x] Change resume on file 
 - [ ] Design contact page 
