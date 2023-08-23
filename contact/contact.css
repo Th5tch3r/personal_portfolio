@@ -16,6 +16,8 @@ body {
         font-family: 'Nunito', sans-serif;
         padding-top: 2%;
         font-size: 20px;
+        display: flex;
+        flex-direction: column;
 }
 
 .logo a {
@@ -64,6 +66,19 @@ a:hover {
 
 .navi #contact:hover {
         color: var(--main-color);
+}
+
+.contact {
+        padding-top: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+}
+
+#icon {
+        height: 30px;
 }
 
 footer {
