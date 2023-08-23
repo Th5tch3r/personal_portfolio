@@ -13,3 +13,8 @@ Create my personal portfolio from scratch using html and css.
 `#45434d`
 
 - Used filter: invert(100%); for icons to become white from black; 
+
+- [ ] Changed footer, add icons
+- [ ] Add responsive for mobile display for work.html
+- [ ] Change resume on file 
+- [ ] Design contact page 
