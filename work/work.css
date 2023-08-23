@@ -164,6 +164,9 @@ a:hover {
 
 /* mobile display */
 @media (hover: none) {
+        body {
+                overflow: scroll;
+        }
         footer {
                 position: relative;
         }
