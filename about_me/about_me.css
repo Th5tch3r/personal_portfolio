@@ -123,8 +123,33 @@ footer {
     align-self: center;
 }
 
-footer p {
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    width: 100%;
+    align-items: center;
+    padding-top: 150px;
+    gap: 10px;
+}
+
+#footer-name {
     color: var(--main-color);
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+}
+
+#icon{
+    filter: invert(100%);
+    height: 30px;
+}
+
+#icon:hover{
+    filter: invert(30%);
+    cursor: pointer;
 }
 
 /* mobile display */

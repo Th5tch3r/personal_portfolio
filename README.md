@@ -16,9 +16,9 @@ Create my personal portfolio from scratch using html and css.
 
 - [x] fix bug on why image not showing up in mobile device
 - [x] Changed footer, add icons
-- [ ] add icons footer for about me
-- [ ] add icons footer for work
-- [ ] add icons footer for contact
+- [x] add icons footer for about me
+- [x] add icons footer for work
 - [ ] Add responsive for mobile display for work.html
 - [x] Change resume on file 
 - [ ] Design contact page 
+- [ ] add icons footer for contact
