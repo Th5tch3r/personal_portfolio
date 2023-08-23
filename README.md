@@ -14,7 +14,11 @@ Create my personal portfolio from scratch using html and css.
 
 - Used filter: invert(100%); for icons to become white from black; 
 
-- [ ] Changed footer, add icons
+- [x] fix bug on why image not showing up in mobile device
+- [x] Changed footer, add icons
+- [ ] add icons footer for about me
+- [ ] add icons footer for work
+- [ ] add icons footer for contact
 - [ ] Add responsive for mobile display for work.html
 - [ ] Change resume on file 
 - [ ] Design contact page 

@@ -100,7 +100,7 @@ a {
     }
 
     img {
-        display: none;
+        /* display: none; */
     }
 
     .navi {
@@ -145,8 +145,8 @@ a {
         margin: 0;
         height: 100%;
         overflow: hidden;
-        background-image: url(./gif/background.gif);
-        /* background-image: url(./img/image.png); */
+        /* background-image: url(./gif/background.gif.icloud); */
+        background-image: url(https://media.giphy.com/media/QuKIG6BsH0bLkXJT1U/giphy.gif);
         background-size: cover;
         background-blend-mode: luminosity;
     }
@@ -158,11 +158,6 @@ a {
     .icons a {
         height: 50px;
         width: 50px;
-    }
-
-    #icon::after {
-        height: 30px;
-        filter: invert(50%);
     }
     
 }
