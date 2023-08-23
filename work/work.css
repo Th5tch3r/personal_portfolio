@@ -29,6 +29,9 @@ body {
         font-family: 'Nunito', sans-serif;
         padding-top: 2%;
         font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 }
 
 .logo a {
@@ -54,10 +57,10 @@ nav {
         display: flex;
         flex-direction: column;
         align-items: center;
-        position: fixed;
+        /* position: fixed; */
         top: 0;
         width: 100%;
-        padding-top: 20px;
+        /* padding-top: -50px; */
 }
 
 .navi {
@@ -88,7 +91,44 @@ a:hover {
 }
 
 #icon {
-        height: 35px;
+        height: 30px;
+}
+
+.projects-list {
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 80px;
+        flex-wrap: wrap;
+
+       
+}
+
+.project-gif {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+}
+
+.project-gif .gif{
+        width: 600px;
+}
+
+.project-description {
+        width: 600px;
+}
+
+.buttons {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin-top: 40px;
+        gap: 45px;
+}
+
+.buttons a {
+        text-decoration: none;
 }
 
 
