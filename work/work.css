@@ -158,7 +158,7 @@ a:hover {
     }
     
     #icon:hover{
-        filter: invert(30%);
+        filter: invert(10%);
         cursor: pointer;
     }
 
