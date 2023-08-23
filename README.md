@@ -11,3 +11,5 @@ Create my personal portfolio from scratch using html and css.
 `#7b7c70`
 `#71888e`
 `#45434d`
+
+- Used filter: invert(100%); for icons to become white from black; 

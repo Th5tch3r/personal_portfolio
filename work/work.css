@@ -1,5 +1,6 @@
 :root {
         --main-color: #967b65;
+        --secondary-color: #616161;
 }
     
 * {
@@ -17,7 +18,7 @@ html {
 }
 
 body {
-        margin: 0;
+        /* margin: 0;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background: linear-gradient(305deg, 
@@ -25,9 +26,10 @@ body {
                 rgba(133,107,89,1) 14%, 
                 rgba(78,55,47,1) 47%, 
                 rgba(56,34,31,1) 70%, 
-                rgba(44,22,22,1) 82%);
-        font-family: 'Nunito', sans-serif;
-        padding-top: 2%;
+                rgba(44,22,22,1) 82%); */
+        font-family: 'Nunito', sans-serif; 
+        background-color: black;
+        padding-top: 20px; 
         font-size: 20px;
         display: flex;
         flex-direction: column;
@@ -44,23 +46,12 @@ body {
         color: white;
 }
 
-.intro p a {
-        text-decoration: none;
-        color: var(--main-color);
-}
-
-.intro p a:hover{
-        color: white;
-}
-
 nav {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* position: fixed; */
         top: 0;
         width: 100%;
-        /* padding-top: -50px; */
 }
 
 .navi {
@@ -79,19 +70,21 @@ nav {
 }
 
 a:hover {
-        color: #4e372f; 
+        color: var(--main-color); 
 }
 
 .navi #work {
-        color: var(--main-color);
+        color: var(--secondary-color);
 }
 
 .navi #work:hover {
-        color: #4e372f;
+        color: var(--main-color);
 }
 
 #icon {
         height: 30px;
+        filter: invert(100%);
+        padding-right: 10px;
 }
 
 .projects-list {
@@ -103,6 +96,10 @@ a:hover {
         flex-wrap: wrap;
 
        
+}
+
+.second {
+        padding-bottom: 150px;
 }
 
 .project-gif {
@@ -129,6 +126,11 @@ a:hover {
 
 .buttons a {
         text-decoration: none;
+        color: var(--secondary-color);
+}
+
+.buttons a:hover {
+        color: var(--main-color);
 }
 
 
