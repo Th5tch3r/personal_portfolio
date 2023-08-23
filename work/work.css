@@ -94,7 +94,6 @@ a:hover {
         align-items: flex-start;
         gap: 80px;
         flex-wrap: wrap;
-
        
 }
 
@@ -109,6 +108,7 @@ a:hover {
 }
 
 .project-gif .gif{
+        border-radius: 10px;
         width: 600px;
 }
 
@@ -164,23 +164,64 @@ a:hover {
 
 /* mobile display */
 @media (hover: none) {
-footer {
-        position: relative;
-}
+        footer {
+                position: relative;
+        }
 
-.logo a {
-        font-size: 1.8rem;
-        color: var(--main-color);
-}
+        .logo a {
+                font-size: 1.8rem;
+                color: var(--main-color);
+        }
 
-.navi a {
-        padding-top: 8px;
-        font-size: 1.3rem;
-}
+        .navi a {
+                padding-top: 8px;
+                font-size: 1.3rem;
+        }
 
-.intro {
-        padding-left: 15%;
-        padding-right: 15%;
-        font-size: 0.8rem;
-}
+        .intro {
+                padding-left: 15%;
+                padding-right: 15%;
+                font-size: 0.8rem;
+        }
+
+        .projects-list {
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 40px;
+        }
+
+        .project-gif .gif{
+                width: 350px;
+                border-radius: 10px;
+        }
+
+        .project-info {
+                margin-top: -35px;
+        }
+
+        .project-description {
+                width: 300px;
+                font-size: 16px;
+                padding-left: 40px;
+        }
+
+        .buttons {
+                width: 350px;
+                font-size: 16px;
+                padding-left: 20px;
+                padding-right: 20px;
+        }
+
+        .second {
+                padding-top: 60px;
+        }
+
+        .footer {
+                margin-top: -90px;
+                font-size: 16px;
+        }
+
+        #icon {
+                filter: invert(20%);
+        }
 }
