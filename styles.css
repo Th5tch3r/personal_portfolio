@@ -6,7 +6,7 @@
     color: white;
     border: 0;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #background {
@@ -19,6 +19,9 @@
 body {
     background-color: black;
     font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 a {
@@ -56,28 +59,32 @@ a {
     font-size: 2rem;
     padding-right: 5%;
 }
-
-/* .footer  {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    height: 300px;
-    padding-bottom: 10%;
-    /* justify-content: center;
-    margin-top: none;
-    margin-bottom: none;
-    padding-bottom: none;
-    padding-top: 30%; */
  
 
-footer {
+.footer {
     display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
-    position: fixed;
-    bottom: 0;
+    flex-direction: column;
+    /* margin-bottom: 100px; */
+    margin-top: auto;
     width: 100%;
-    align-self: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.icons{
+    margin-top: -20px;
+    display: flex;
+    gap: 10px;
+}
+
+#icon{
+    filter: invert(100%);
+    height: 30px;
+}
+
+#icon:hover{
+    filter: invert(30%);
+    cursor: pointer;
 }
 
 /* Mobile, none hoverable devices */
@@ -145,10 +152,17 @@ footer {
     }
 
     .footer {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        align-self: center;
+        display: flex;
+    }
+
+    .icons a {
+        height: 50px;
+        width: 50px;
+    }
+
+    #icon::after {
+        height: 30px;
+        filter: invert(50%);
     }
     
 }
